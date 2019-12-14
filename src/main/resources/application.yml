@@ -1,0 +1,15 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  datasource:
+    username: root
+    password: 123456 #Mypwd#2019
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Shanghai
+server:
+  port: 80
+comment.avatar: /images/avatar.png

@@ -1,0 +1,134 @@
+2019-11-11 10:19:29.389  INFO 3720 --- [restartedMain] org.skh.blog.BlogApplication             : Starting BlogApplication on DESKTOP-Q9PCLOB with PID 3720 (G:\IdeaProjects\blog\target\classes started by SKH in G:\IdeaProjects\blog)
+2019-11-11 10:19:29.416  INFO 3720 --- [restartedMain] org.skh.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-11-11 10:19:29.480  INFO 3720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-11 10:19:29.480  INFO 3720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-11 10:19:31.051  INFO 3720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-11 10:19:31.192  INFO 3720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127ms. Found 5 repository interfaces.
+2019-11-11 10:19:31.878  INFO 3720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$1b132767] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-11 10:19:31.987  INFO 3720 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-11-11 10:19:32.116  INFO 3720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$767b6268] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-11 10:19:32.353  INFO 3720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$f5fbaf9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-11 10:19:33.735  INFO 3720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-11-11 10:19:33.770  INFO 3720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-11 10:19:33.771  INFO 3720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-11-11 10:19:34.141  INFO 3720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-11 10:19:34.141  INFO 3720 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4659 ms
+2019-11-11 10:19:34.375  INFO 3720 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-11 10:19:34.378  WARN 3720 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-11-11 10:19:36.806  INFO 3720 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-11 10:19:36.911  INFO 3720 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-11 10:19:37.073  INFO 3720 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-11-11 10:19:37.077  INFO 3720 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-11 10:19:37.359  INFO 3720 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-11 10:19:37.761  INFO 3720 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-11 10:19:39.924  INFO 3720 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-11 10:19:40.023  INFO 3720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-11 10:19:40.985  INFO 3720 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-11 10:19:43.018  INFO 3720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-11 10:19:43.158  WARN 3720 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-11 10:19:43.223  INFO 3720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-11 10:19:45.877  INFO 3720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-11-11 10:19:45.881  INFO 3720 --- [restartedMain] org.skh.blog.BlogApplication             : Started BlogApplication in 17.164 seconds (JVM running for 20.295)
+2019-11-11 10:20:02.053  INFO 3720 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-11 10:20:02.054  INFO 3720 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-11 10:20:02.074  INFO 3720 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2019-11-11 10:20:02.141  INFO 3720 --- [http-nio-80-exec-1] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/', ip='127.0.0.1', classMethod='org.skh.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-11 10:20:02.433  WARN 3720 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-11-11 10:20:02.456  WARN 3720 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-11-11 10:20:02.476  INFO 3720 --- [http-nio-80-exec-1] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:20:02.477  INFO 3720 --- [http-nio-80-exec-1] org.skh.blog.aspect.LogAspect            : Result:index
+2019-11-11 10:20:17.940  INFO 3720 --- [http-nio-80-exec-1] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/types/1', ip='127.0.0.1', classMethod='org.skh.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 1, {}]}
+2019-11-11 10:20:17.990  INFO 3720 --- [http-nio-80-exec-1] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:20:17.990  INFO 3720 --- [http-nio-80-exec-1] org.skh.blog.aspect.LogAspect            : Result:types
+2019-11-11 10:20:20.136  INFO 3720 --- [http-nio-80-exec-6] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/', ip='127.0.0.1', classMethod='org.skh.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-11 10:20:20.161  INFO 3720 --- [http-nio-80-exec-6] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:20:20.162  INFO 3720 --- [http-nio-80-exec-6] org.skh.blog.aspect.LogAspect            : Result:index
+2019-11-11 10:20:21.922  INFO 3720 --- [http-nio-80-exec-3] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/', ip='127.0.0.1', classMethod='org.skh.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-11 10:20:21.976  INFO 3720 --- [http-nio-80-exec-3] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:20:21.976  INFO 3720 --- [http-nio-80-exec-3] org.skh.blog.aspect.LogAspect            : Result:index
+2019-11-11 10:20:27.119  INFO 3720 --- [http-nio-80-exec-9] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/', ip='127.0.0.1', classMethod='org.skh.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-11 10:20:27.146  INFO 3720 --- [http-nio-80-exec-9] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:20:27.146  INFO 3720 --- [http-nio-80-exec-9] org.skh.blog.aspect.LogAspect            : Result:index
+2019-11-11 10:20:34.712  INFO 3720 --- [http-nio-80-exec-6] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/blog/36', ip='127.0.0.1', classMethod='org.skh.blog.controller.IndexController.getBlogMsg', args=[36, {}]}
+2019-11-11 10:20:34.838  INFO 3720 --- [http-nio-80-exec-6] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:20:34.838  INFO 3720 --- [http-nio-80-exec-6] org.skh.blog.aspect.LogAspect            : Result:blog
+2019-11-11 10:20:36.126  INFO 3720 --- [http-nio-80-exec-10] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/comments/36', ip='127.0.0.1', classMethod='org.skh.blog.controller.CommentController.comments', args=[36, {}]}
+2019-11-11 10:20:36.209  INFO 3720 --- [http-nio-80-exec-10] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:20:36.210  INFO 3720 --- [http-nio-80-exec-10] org.skh.blog.aspect.LogAspect            : Result:blog :: commentList
+2019-11-11 10:23:40.030  INFO 3720 --- [http-nio-80-exec-5] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/tags/-1', ip='127.0.0.1', classMethod='org.skh.blog.controller.TagShowController.Tags', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2019-11-11 10:23:40.067  INFO 3720 --- [http-nio-80-exec-5] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:23:40.067  INFO 3720 --- [http-nio-80-exec-5] org.skh.blog.aspect.LogAspect            : Result:tags
+2019-11-11 10:24:10.744  INFO 3720 --- [http-nio-80-exec-3] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/', ip='127.0.0.1', classMethod='org.skh.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-11 10:24:10.765  INFO 3720 --- [http-nio-80-exec-3] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:24:10.766  INFO 3720 --- [http-nio-80-exec-3] org.skh.blog.aspect.LogAspect            : Result:index
+2019-11-11 10:24:14.642  INFO 3720 --- [http-nio-80-exec-6] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/tags/9', ip='127.0.0.1', classMethod='org.skh.blog.controller.TagShowController.Tags', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 9, {}]}
+2019-11-11 10:24:14.659  INFO 3720 --- [http-nio-80-exec-6] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:24:14.659  INFO 3720 --- [http-nio-80-exec-6] org.skh.blog.aspect.LogAspect            : Result:tags
+2019-11-11 10:24:28.040  INFO 3720 --- [http-nio-80-exec-9] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/types/1', ip='127.0.0.1', classMethod='org.skh.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 1, {}]}
+2019-11-11 10:24:28.050  INFO 3720 --- [http-nio-80-exec-9] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:24:28.050  INFO 3720 --- [http-nio-80-exec-9] org.skh.blog.aspect.LogAspect            : Result:types
+2019-11-11 10:25:00.857  INFO 3720 --- [http-nio-80-exec-3] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/types/18', ip='127.0.0.1', classMethod='org.skh.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 18, {}]}
+2019-11-11 10:25:00.869  INFO 3720 --- [http-nio-80-exec-3] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:25:00.869  INFO 3720 --- [http-nio-80-exec-3] org.skh.blog.aspect.LogAspect            : Result:types
+2019-11-11 10:25:05.450  INFO 3720 --- [http-nio-80-exec-9] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/types/6', ip='127.0.0.1', classMethod='org.skh.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 6, {}]}
+2019-11-11 10:25:05.462  INFO 3720 --- [http-nio-80-exec-9] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:25:05.462  INFO 3720 --- [http-nio-80-exec-9] org.skh.blog.aspect.LogAspect            : Result:types
+2019-11-11 10:25:18.962  INFO 3720 --- [http-nio-80-exec-10] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/', ip='127.0.0.1', classMethod='org.skh.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-11 10:25:18.980  INFO 3720 --- [http-nio-80-exec-10] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:25:18.980  INFO 3720 --- [http-nio-80-exec-10] org.skh.blog.aspect.LogAspect            : Result:index
+2019-11-11 10:27:16.471  INFO 3720 --- [http-nio-80-exec-6] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/blog/36', ip='127.0.0.1', classMethod='org.skh.blog.controller.IndexController.getBlogMsg', args=[36, {}]}
+2019-11-11 10:27:16.500  INFO 3720 --- [http-nio-80-exec-6] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:27:16.500  INFO 3720 --- [http-nio-80-exec-6] org.skh.blog.aspect.LogAspect            : Result:blog
+2019-11-11 10:27:17.523  INFO 3720 --- [http-nio-80-exec-1] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/comments/36', ip='127.0.0.1', classMethod='org.skh.blog.controller.CommentController.comments', args=[36, {}]}
+2019-11-11 10:27:17.536  INFO 3720 --- [http-nio-80-exec-1] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:27:17.537  INFO 3720 --- [http-nio-80-exec-1] org.skh.blog.aspect.LogAspect            : Result:blog :: commentList
+2019-11-11 10:27:26.506  INFO 3720 --- [http-nio-80-exec-6] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/blog/24', ip='127.0.0.1', classMethod='org.skh.blog.controller.IndexController.getBlogMsg', args=[24, {}]}
+2019-11-11 10:27:26.525  INFO 3720 --- [http-nio-80-exec-6] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:27:26.525  INFO 3720 --- [http-nio-80-exec-6] org.skh.blog.aspect.LogAspect            : Result:blog
+2019-11-11 10:27:27.507  INFO 3720 --- [http-nio-80-exec-2] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/comments/24', ip='127.0.0.1', classMethod='org.skh.blog.controller.CommentController.comments', args=[24, {}]}
+2019-11-11 10:27:27.516  INFO 3720 --- [http-nio-80-exec-2] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 10:27:27.516  INFO 3720 --- [http-nio-80-exec-2] org.skh.blog.aspect.LogAspect            : Result:blog :: commentList
+2019-11-11 11:31:48.417  INFO 15144 --- [restartedMain] org.skh.blog.BlogApplication             : Starting BlogApplication on DESKTOP-Q9PCLOB with PID 15144 (G:\IdeaProjects\blog\target\classes started by SKH in G:\IdeaProjects\blog)
+2019-11-11 11:31:48.419  INFO 15144 --- [restartedMain] org.skh.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2019-11-11 11:31:48.501  INFO 15144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-11 11:31:48.501  INFO 15144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-11 11:31:49.688  INFO 15144 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-11 11:31:49.809  INFO 15144 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113ms. Found 5 repository interfaces.
+2019-11-11 11:31:50.443  INFO 15144 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$88cff757] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-11 11:31:50.478  INFO 15144 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-11-11 11:31:50.536  INFO 15144 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e4383258] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-11 11:31:50.657  INFO 15144 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$63b87f8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-11 11:31:51.494  INFO 15144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-11-11 11:31:51.525  INFO 15144 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-11 11:31:51.529  INFO 15144 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-11-11 11:31:51.815  INFO 15144 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-11 11:31:51.815  INFO 15144 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3313 ms
+2019-11-11 11:31:52.117  INFO 15144 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-11 11:31:52.122  WARN 15144 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-11-11 11:31:54.301  INFO 15144 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-11 11:31:54.437  INFO 15144 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-11 11:31:54.604  INFO 15144 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-11-11 11:31:54.609  INFO 15144 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-11 11:31:54.877  INFO 15144 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-11 11:31:55.204  INFO 15144 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-11 11:31:58.358  INFO 15144 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-11 11:31:58.515  INFO 15144 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-11 11:31:59.311  INFO 15144 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-11 11:32:01.102  INFO 15144 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-11 11:32:01.227  WARN 15144 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-11 11:32:01.351  INFO 15144 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-11 11:32:03.761  INFO 15144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-11-11 11:32:03.766  INFO 15144 --- [restartedMain] org.skh.blog.BlogApplication             : Started BlogApplication in 15.961 seconds (JVM running for 18.578)
+2019-11-11 11:32:39.925  INFO 15144 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-11 11:32:39.925  INFO 15144 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-11 11:32:39.954  INFO 15144 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2019-11-11 11:32:40.029  INFO 15144 --- [http-nio-80-exec-1] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/blog/24', ip='127.0.0.1', classMethod='org.skh.blog.controller.IndexController.getBlogMsg', args=[24, {}]}
+2019-11-11 11:32:40.369  INFO 15144 --- [http-nio-80-exec-1] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 11:32:40.369  INFO 15144 --- [http-nio-80-exec-1] org.skh.blog.aspect.LogAspect            : Result:blog
+2019-11-11 11:32:42.252  INFO 15144 --- [http-nio-80-exec-9] org.skh.blog.aspect.LogAspect            : Request:{url='http://localhost/comments/24', ip='127.0.0.1', classMethod='org.skh.blog.controller.CommentController.comments', args=[24, {}]}
+2019-11-11 11:32:42.338  INFO 15144 --- [http-nio-80-exec-9] org.skh.blog.aspect.LogAspect            : 方法结束后
+2019-11-11 11:32:42.338  INFO 15144 --- [http-nio-80-exec-9] org.skh.blog.aspect.LogAspect            : Result:blog :: commentList
